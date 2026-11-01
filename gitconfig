@@ -1,0 +1,11 @@
+[user]
+    name = Dustin Tharp
+    email = dustintharp07-cmd@users.noreply.github.com
+[init]
+    defaultBranch = main
+[alias]
+    s = status --short --branch
+    l = log --oneline --graph --decorate -20
+[credential]
+    helper =
+    helper = !gh auth git-credential
